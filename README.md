@@ -9,7 +9,7 @@
 - Responsive design principles for a seamless experience on different devices.
 
 ## Live Page
-Check out the live page of the project [here](). 
+Check out the live page of the project [here](https://alaakholif.github.io/Mealify/). 
 
 ## Notes
 - This project is for educational purposes and HTML/CSS practice.
