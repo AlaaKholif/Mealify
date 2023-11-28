@@ -1,0 +1,144 @@
+@media screen and (max-width: 1200px) {
+
+    .menu-icon {
+        display: inline-flex; 
+    }
+
+    header .container .navbar {
+        display: none;
+        position: absolute;
+        top: 4.375rem;
+        top: 100%;
+        right: 0;
+        left: 70%;
+        height: 100vh;
+        background-color: #fff;
+        box-shadow: 0px 0px 14px 0px #0000001b;
+        flex-direction: column;
+    }
+
+    #home .container .caption {
+        width: 49%;
+    }
+
+    footer .container .footer-items .item {
+        width: calc(calc(100% - 1.25rem ) / 2);
+    }
+
+    footer .container .footer-items .item2 {
+        order: 1;
+        flex-grow: 1;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    #home {
+        height: auto;
+        padding-block: 2.5rem;
+    }
+
+    #home .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    #home .container .image {
+        width: 100%;
+        order: -1;
+    }
+
+    #home .container .caption {
+        width: 60%;
+        text-align: center;
+    }
+
+    #home .container .caption p {
+        font-size: 0.9rem;
+    }
+
+    #home .container .caption .btn-1 {
+        border-radius: 100vh;
+    }
+
+    #chefs .container .cards .card {
+        width: calc(calc(100% - 1.875rem) / 2);
+    }
+
+    #gallery .container .cards {
+        column-count: 2; 
+    }
+    
+    #gallery .container .cards .card {
+        width: calc(100% - 1.25rem)/2;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #home .container .caption {
+        width: 75%;
+    }
+
+    #chefs .container .cards {
+        justify-content: center;
+    }
+
+    #chefs .container .cards .card {
+        width: 90%;
+    }
+
+    #gallery .container .cards {
+        column-count: 1; 
+    }
+
+    #gallery .container .cards .card {
+        width: 90%;
+        margin: auto;
+    }
+
+    #contact .container .details .card {
+        width: 100%;
+    }
+
+    #contact .container .contact-us .info input {
+        width: 100%;
+    }
+
+    footer .container .footer-items .item {
+        width: 100%;
+    }
+
+    footer .container .footer-items .item2 {
+        order: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #home .container .image {
+        width: 100%;
+    }
+
+    #home .container .caption {
+        width: 100%;
+    }
+
+    #chefs .container .cards .card {
+        width: 100%;
+    }
+
+    #gallery .container .cards .card {
+        width: 100%;
+    }
+
+    footer .container .footer-items .item2 .email {
+        flex-direction: column;
+    }
+
+
+}
+
